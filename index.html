@@ -391,7 +391,7 @@
             font-size: 10px;
             font: bold;
         }
-        @media (max-width:480px){
+        @media (max-width:350px) {
             header{
                 margin-bottom: 30px;
             }
@@ -423,28 +423,44 @@
                 width:auto;
                 height:auto;
                 gap:0px;
+                }
+            #box1{
+                margin-bottom:100px ;
             }
             #innercontainer{
                 flex-direction:column-reverse;
                 padding:5px;
                 height:auto;
+                height:auto;
+                /* margin-bottom: 100px; */
+
+
+                
+
                 }
             #container2{
                 height:auto;
                 height:100vh !important;
-                flex-direction: column;padding:5px;
+                flex-direction: column;
+                padding:5px;
+                
         
             }
-            #one2,#two2,#three{
+            #one2{
+                display:none;
+            }
+            
+            #two2{
                 width:auto;
                 height:auto;
+                /* margin-bottom: 100px; */
                 
             }
             #container3{
                 display:flex;
                 flex-direction: column;
                 height:100vh !important;
-                /* margin-bottom: 120px; */
+                margin-bottom: 120px;
             }
             #container4{
                 display:flex;
@@ -467,7 +483,101 @@
         
         
         }
-        @media (max-width:768px) and (max-width:481){
+        @media (max-width:580px) {
+            header{
+                margin-bottom: 30px;
+            }
+            
+            #navtagmobileview{
+                display:none;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(81, 178, 178);
+                padding-bottom:20px;
+                position:fixed;
+                width:100%;
+                
+                }
+            
+            #closeingicon{
+                display:none;
+                position: fixed;
+                top:20px;
+                right: 20px;
+            }
+            #menu{
+                display:block;
+            }
+            #navtag ul{
+                display:none;
+            }
+            #box1,#box2{
+                width:auto;
+                height:auto;
+                gap:0px;
+                }
+            /* #box1{
+                margin-bottom:100px ;
+            } */
+            #innercontainer{
+                flex-direction:column-reverse;
+                padding:5px;
+                height:auto;
+                height:auto;
+                /* margin-bottom: 100px; */
+
+
+                
+
+                }
+            #container2{
+                height:auto;
+                height:100vh !important;
+                flex-direction: column;
+                padding:5px;
+                margin-bottom: 100px;
+                
+        
+            }
+            /* #one2{
+                display:none;
+            }
+             */
+            #two2{
+                width:auto;
+                height:auto;
+                /* margin-bottom: 100px; */
+                
+            }
+            #container3{
+                display:flex;
+                flex-direction: column;
+                height:100vh !important;
+                margin-bottom: 120px;
+            }
+            #container4{
+                display:flex;
+                flex-direction: column;
+                
+            }
+            #menu{
+                position:fixed;
+                top:20px;
+                right:20px;
+            }
+            #five5{
+                width:auto;
+                padding:10px;
+            }
+            #button3{
+                display:none;
+    
+            }
+        
+        
+        }
+        
+        @media (max-width:768px) and (max-width:488){
             #box1,#box2{
                 width:auto;
                 gap:0px;
@@ -490,7 +600,7 @@
                 height: auto;
                 flex-direction: column;padding:5px;
             }
-            #one2,#two2{
+            #one#two2{
                 width:auto;
             }
             #twotwo{
